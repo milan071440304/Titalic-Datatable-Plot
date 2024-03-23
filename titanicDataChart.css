@@ -1,0 +1,43 @@
+/* table, th, td{
+    border: 1px solid black;
+} */
+.display{
+    width: 70%;
+}
+/* #scatter-marker-color{
+    color: red !important;
+} */
+
+#data-plotting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 2.5rem; */
+}
+
+.details-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.8rem;
+    align-self: start;
+    margin-top: 8rem;
+}
+.detail-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.indicate-box{
+ width: 6px; height: 6px;
+ border-radius: 50%;
+}
+.died{
+    background-color: red;
+}
+.survived{
+    background-color: blue;
+}
