@@ -97,7 +97,7 @@ async function titanicDatas(){
 
 
       //main          
-    const newdata = [trace1_diedList, trace2_survivedList];
+    const newData = [trace1_diedList, trace2_survivedList];
 
 
     let layout = {
@@ -116,7 +116,7 @@ async function titanicDatas(){
 
     };
 
-    Plotly.newPlot( dataPlotting, newdata, layout);
+    Plotly.newPlot( dataPlotting, newData, layout);
 
     table.appendChild(tBody);
 
